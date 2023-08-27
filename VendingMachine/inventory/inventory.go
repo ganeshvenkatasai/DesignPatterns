@@ -6,8 +6,8 @@ type Inventory struct {
 	ProductCountMap map[model.Product]int
 }
 
-func NewInventory() *Inventory {
-	return &Inventory{
+func NewInventory() Inventory {
+	return Inventory{
 		ProductCountMap: make(map[model.Product]int, 0),
 	}
 }

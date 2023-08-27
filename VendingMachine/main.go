@@ -8,7 +8,7 @@ import (
 
 func main() {
 	inventory := inventory.NewInventory()
-	vendingMachine := machine.NewVendingMachine(*inventory)
+	vendingMachine := machine.NewVendingMachine(inventory)
 	product := model.Product{Name: "Lays", Price: 20}
 
 	vendingMachine.AddProduct(product)  // add product
