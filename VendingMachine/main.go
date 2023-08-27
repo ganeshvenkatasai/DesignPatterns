@@ -15,5 +15,5 @@ func main() {
 	vendingMachine.PressButton(product) // accessing product without money
 	vendingMachine.InsertCoin(10)       // inserting coin
 	vendingMachine.InsertCoin(30)       // again inserting coin
-	vendingMachine.PressButton(product) // acessing product
+	vendingMachine.PressButton(product) // accessing product
 }
