@@ -1,9 +1,12 @@
 package state
 
-import "Vendingmachine/model"
+import (
+	"Vendingmachine/inventory"
+	"Vendingmachine/model"
+)
 
 type State interface {
-	insertCoin()
-	pressButton()
-	dispense() *model.Product
+	InsertCoin() error
+	PressButton(amount int, p model.Product, i inventory.Inventory) error
+	Dispense(p model.Product, i inventory.Inventory)
 }
