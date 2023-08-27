@@ -1,8 +1,8 @@
 package state
 
 import (
-	"Vendingmachine/inventory"
-	"Vendingmachine/model"
+	"VendingMachine/inventory"
+	"VendingMachine/model"
 )
 
 type State interface {

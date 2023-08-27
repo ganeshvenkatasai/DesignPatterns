@@ -1,9 +1,9 @@
 package main
 
 import (
-	"Vendingmachine/inventory"
-	"Vendingmachine/machine"
-	"Vendingmachine/model"
+	"VendingMachine/inventory"
+	"VendingMachine/machine"
+	"VendingMachine/model"
 )
 
 func main() {

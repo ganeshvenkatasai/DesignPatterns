@@ -1,9 +1,9 @@
 package machine
 
 import (
-	"Vendingmachine/inventory"
-	"Vendingmachine/model"
-	"Vendingmachine/state"
+	"VendingMachine/inventory"
+	"VendingMachine/model"
+	"VendingMachine/state"
 	"fmt"
 	"log"
 )

@@ -1,6 +1,6 @@
 package inventory
 
-import "Vendingmachine/model"
+import "VendingMachine/model"
 
 type Inventory struct {
 	ProductCountMap map[model.Product]int
